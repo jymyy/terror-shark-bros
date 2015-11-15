@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+html {
+	background-color:#686868 ;
+}
+#otsikko {
+    font-family:impact;
+    color:white;
+    font-size:35px;
+}
+
+header {
+	background-image:url("http://dime.tml.hut.fi/~rantalj7/img/valikko.jpg")
+}
+.valikko {
+	display:inline;
+	color:white;
+	font-size:30px;
+}
+
+h1 {
+	color:white;
+	font-family:impact;
+}
+h2 {
+	color:white;
+	font-family:impact;
+	background-color:black;
+}
+.valikkolink {
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+}
+
+.valikkolink:hover {
+	font-family:impact;	
+}
+
+#projektityo {
+	width:53%;
+	margin:2%;
+	display:inline-block;
+}
+
+.link {
+    color:white;
+    text-decoration:underline;
+}
+
+.link:hover {
+	font-family:impact;
+	cursor:pointer;
+}
+	
+p {
+	color:white;
+}
+
+article {
+    color:white;
+}
+
+
+footer {
+	position:fixed;
+    color:white;
+    text-align:center;
+    width:100%;
+    bottom:20px;
+	height:0px;
+	z-index:-4;
+	display:block;
+}
+
+.vcard {
+	visibility:hidden;
+	display:none;
+}
+
+
+#MouseCoord {
+    background-color:black;
+    height:15px;
+    width:70px;
+    font-size:12px;
+    color:white;
+    font-family:impact;
+    text-align:center;
+    display:none;
+}
+
+#canvas {
+	position:absolute;
+	z-index:-3;
+	display:inline-block;
+}
+
+#start {
+	position:absolute;
+	z-index:-1;
+	display:inline-block;
+}
+
+#end {
+	position:absolute;
+	z-index:-2;
+	display:inline-block;
+}

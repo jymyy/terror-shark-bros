@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="../CSS/projektityo.css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
+<link rel="icon" type="image/png" href="http://dime.tml.hut.fi/~rantalj7/img/terrorshark.ico" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/fontsize.js"></script>
+<script type="text/javascript" src="js/nav.js"></script>
+<link rel="profile" href="http://microformats.org/profile/hcard">
+<title>terror shark bros</title>
+</head>
+<body>
+	<header>
+		<div>
+			<p id="otsikko">terror shark bros</p>
+		</div>
+	</header>
+
+	<section id="projektityo">
+		<article>
+		
+			<!-- AUDIO-FILES USED IN THE GAME -->
+			<audio controls loop preload="true" id="music" style="display:none">
+				<source src="../media/game music.ogg" type ="audio/ogg">
+				<source src="../media/game music.wav" type ="audio/wav">
+				<source src="../media/game music.mp3" type ="audio/mpeg">
+			</audio>
+			
+			<audio controls preload="true" id="winmusic" style="display:none">
+				<source src="../media/game win.ogg" type ="audio/ogg">
+				<source src="../media/game win.wav" type ="audio/wav">
+				<source src="../media/game win.mp3" type ="audio/mpeg">
+			</audio>
+			
+			<audio controls preload="true" id="losemusic" style="display:none">
+				<source src="../media/game dying.ogg" type ="audio/ogg">
+				<source src="../media/game dying.wav" type ="audio/wav">
+				<source src="../media/game dying.mp3" type ="audio/mpeg">
+			</audio>
+			
+			<audio controls loop preload="true" id="above16" style="display:none">
+				<source src="../media/above16.ogg" type ="audio/ogg">
+				<source src="../media/above16.wav" type ="audio/wav">
+				<source src="../media/above16.mp3" type ="audio/mpeg">
+			</audio>
+			
+			<audio controls loop preload="true" id="pawns16" style="display:none">
+				<source src="../media/pawns16.ogg" type ="audio/ogg">
+				<source src="../media/pawns16.wav" type ="audio/wav">
+				<source src="../media/pawns16.mp3" type ="audio/mpeg">
+			</audio>
+			
+			<audio controls loop preload="true" id="name16" style="display:none">
+				<source src="../media/name16.ogg" type ="audio/ogg">
+				<source src="../media/name16.wav" type ="audio/wav">
+				<source src="../media/name16.mp3" type ="audio/mpeg">
+			</audio>
+			
+			<audio controls loop preload="true" id="burn16" style="display:none">
+				<source src="../media/burn16.ogg" type ="audio/ogg">
+				<source src="../media/burn16.wav" type ="audio/wav">
+				<source src="../media/burn16.mp3" type ="audio/mpeg">
+			</audio>
+		
+			
+			<!-- BOMB SOUND-EFFECT LOADED FROM: http://soundbible.com/1986-Bomb-Exploding.html -->
+			<audio controls preload="true" id="bomb" style="display:none">
+				<source src="../media/bomb.ogg" type ="audio/ogg">
+				<source src="../media/bomb.wav" type ="audio/wav">
+				<source src="../media/bomb.mp3" type ="audio/mpeg">
+			</audio>
+			
+			<!-- VIDEO-FILES USED IN THE GAME -->
+			<video width="800" height="600" id="end" style="visibility:hidden">
+				<source src="../media/EndCredits.mp4" type="video/mp4">
+				<source src="../media/EndCredits.ogv" type="video/ogg">
+				<source src="../media/EndCredits.webm" type="video/webm">
+				<track src="../media/credits.vtt" kind="subtitles" srclang="fi" label="Finnish subtitles"></track>
+			</video>
+			
+			<video width="800" height="600" id="start" style="visibility:hidden">
+				<source src="../media/prologi.mp4" type="video/mp4">
+				<source src="../media/prologi.ogv" type="video/ogg">
+				<source src="../media/prologi.webm" type="video/webm">
+				<track src="../media/prologi.vtt" kind="subtitles" srclang="fi" label="Finnish subtitles"></track>
+			</video>
+			
+			
+			<!-- SETTING UP CANVAS -->
+			<canvas id="canvas"></canvas>
+			
+			<!-- SCRIPT-FILES USED IN THE GAME -->
+			
+			<script type="text/javascript" src="../js/variables.js"></script>
+			<script type="text/javascript" src="../js/listeners.js"></script>
+			<script type="text/javascript" src="../js/screens.js"></script>
+			<script type="text/javascript" src="../js/characters.js"></script>
+			<script type="text/javascript" src="../js/objects.js"></script>
+			<script type="text/javascript" src="../js/levels.js"></script>
+			<script type="text/javascript" src="../js/gameloop.js"></script>
+		</article>
+		
+	</section>
+	
+<footer>Copyright © Jesse Rantala & terror shark, jesse.rantala@aalto.fi, Aalto-Yliopisto, 2013</footer>
+
+<!-- MICROFORMATS -->
+
+<ul class="vcard">
+   		<li class="fn">Jesse Rantala</li>
+   		<li class="org">Aalto University</li>
+</ul>
+
+</html>
